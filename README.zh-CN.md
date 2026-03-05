@@ -34,8 +34,8 @@ English version: [README.md](README.md)
 ## 安装
 
 ```bash
-ln -s /Users/tommy/Documents/GitHubOpenSources/juice/comfyui_web_media_node \
-  /path/to/ComfyUI/custom_nodes/comfyui_web_media_node
+cd /path/to/ComfyUI/custom_nodes
+git clone https://github.com/your-username/comfyui_web_media_node.git
 ```
 
 重启 ComfyUI。
@@ -71,7 +71,7 @@ ln -s /Users/tommy/Documents/GitHubOpenSources/juice/comfyui_web_media_node \
 ## 本地测试
 
 ```bash
-cd /Users/tommy/Documents/GitHubOpenSources/juice/comfyui_web_media_node
+cd comfyui_web_media_node
 python -m pytest -q
 ```
 

@@ -34,8 +34,8 @@ Code of conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 ## Install
 
 ```bash
-ln -s /Users/tommy/Documents/GitHubOpenSources/juice/comfyui_web_media_node \
-  /path/to/ComfyUI/custom_nodes/comfyui_web_media_node
+cd /path/to/ComfyUI/custom_nodes
+git clone https://github.com/your-username/comfyui_web_media_node.git
 ```
 
 Restart ComfyUI.
@@ -71,7 +71,7 @@ Use this format in your repo once you collect numbers:
 ## Local Test
 
 ```bash
-cd /Users/tommy/Documents/GitHubOpenSources/juice/comfyui_web_media_node
+cd comfyui_web_media_node
 python -m pytest -q
 ```
 
