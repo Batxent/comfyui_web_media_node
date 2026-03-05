@@ -1,0 +1,18 @@
+{
+  "description": "Example workflow snippet for MediaLoadImageFromURLWithCache",
+  "note": "Import this JSON as a starting point and connect output IMAGE/MASK to your sampler graph.",
+  "nodes": [
+    {
+      "id": 1,
+      "type": "MediaLoadImageFromURLWithCache",
+      "inputs": {
+        "source_url": "https://example.com/reference.png",
+        "asset_key": "agent_reference_default",
+        "force_refresh": false,
+        "memory_cache_enabled": true,
+        "memory_cache_max_items": 128,
+        "memory_cache_ttl_seconds": 600
+      }
+    }
+  ]
+}
